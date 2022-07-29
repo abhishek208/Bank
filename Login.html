@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon5.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bank</title>
+
+   
+  </head>
+  <body>
+    <header class="headerLogin">
+      <nav class="nav">
+        <img
+          src="img/icon6.png"
+          class="nav__logo"
+          id="logo"
+           />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="index.html">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="About.html">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="index.html#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="index.html#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="Login.html">Login</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn " href="register.html"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- onsubmit="event.preventDefault(); return  validateForm()" -->
+      <div class="Login">
+        <h2>Login</h2>
+        <form id="regForm" action=""    novalidate>
+          <table>
+          <tr><td><label >Username</label></td><td><input   id="uname" class="userName" type="text"></td></tr>
+          <tr><td></td><td id="error1"></td></tr>
+          <tr><td><label >Email</label></td><td><input   id="mail" class="Email" type="email"></td></tr>
+          <tr><td></td><td id="error2"></td></tr>
+         <tr><td><label >Password</label></td><td> <input  id="pass" class="password" type="password"></td></tr>
+         <tr><td></td><td id="error3"></td></tr>
+         
+             <tr> <td></td><td> <input type="submit" id="loginUser" value="Submit"></td><td></td></tr>
+            </table>
+        </form>
+      </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./script1.js"></script>
+    </body>
+    </html>
